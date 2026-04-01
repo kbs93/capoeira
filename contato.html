@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>grito de liberdade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="logo">Grito de Liberdade </div>
+    <nav class="nav" id="navMenu">
+         <a href="index.html">Inicio</a>
+        <a href="projeto.html">Projetos</a>
+        <a href="elas.html">Elas na Roda</a>
+         <a href="treino.html">Espaço de treino</a>
+        <a href="historia.html">Historia</a>
+        <a href="somos.html">Quem somos</a>
+       
+    </nav>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <img src="../img/grito2.png" alt="Banner desktop" class="hero-img hero-img-desktop">
+    <img src="../img/grito4.jpg" alt="Banner mobile" class="hero-img hero-img-mobile">
+
+    <h1>Centro Cultural Grito de Liberdade Mestre Cobra</h1>
+    <p id="frase">Deus acima de tudo </p><br>
+</section>
+
+ <!-- CONTEUDO DAQUI PRA BAIXO  -->  
+  <div class="contato-wrapper">
+
+    <section class="contato-pagina">
+        <div class="contato-topo">
+            <h1 class="contato-titulo">Fale com o Grito de Liberdade</h1>
+            <p class="contato-subtitulo">
+                Este espaço foi criado para ouvir você. Envie sua opinião, elogio,
+                denúncia ou sugestão de melhoria, e acompanhe também nossos canais
+                oficiais de contato e redes sociais.
+            </p>
+        </div>
+
+        <div class="contato-layout">
+
+            <div class="contato-formulario-box">
+                <h2 class="contato-box-titulo">Envie sua mensagem</h2>
+
+                <form class="contato-formulario" id="contatoFormularioGrupo">
+                    <div class="contato-campo">
+                        <label for="contatoNomeGrupo">Seu nome</label>
+                        <input type="text" id="contatoNomeGrupo" name="nome" placeholder="Digite seu nome">
+                    </div>
+
+                    <div class="contato-campo">
+                        <label for="contatoEmailGrupo">Seu e-mail</label>
+                        <input type="email" id="contatoEmailGrupo" name="email" placeholder="Digite seu e-mail">
+                    </div>
+
+                    <div class="contato-campo">
+                        <label for="contatoTipoMensagem">Tipo de mensagem</label>
+                        <select id="contatoTipoMensagem" name="tipo">
+                            <option value="">Selecione uma opção</option>
+                            <option value="opiniao">Opinião</option>
+                            <option value="elogio">Elogio</option>
+                            <option value="denuncia">Denúncia</option>
+                            <option value="sugestao">Sugestão de melhoria</option>
+                        </select>
+                    </div>
+
+                    <div class="contato-campo">
+                        <label for="contatoAssuntoGrupo">Assunto</label>
+                        <input type="text" id="contatoAssuntoGrupo" name="assunto" placeholder="Digite o assunto">
+                    </div>
+
+                    <div class="contato-campo">
+                        <label for="contatoMensagemGrupo">Mensagem</label>
+                        <textarea id="contatoMensagemGrupo" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui"></textarea>
+                    </div>
+
+                    <div class="contato-campo contato-campo-check">
+                        <input type="checkbox" id="contatoAnonimoGrupo" name="anonimo">
+                        <label for="contatoAnonimoGrupo">Quero enviar de forma reservada</label>
+                    </div>
+
+                    <button type="submit" class="contato-botao-enviar">Enviar mensagem</button>
+                </form>
+            </div>
+
+            <aside class="contato-infos-box">
+                <div class="contato-info-bloco">
+                    <h2 class="contato-box-titulo">Canais de contato</h2>
+                    <p><strong>E-mail:</strong> contato@gritodeliberdade.com</p>
+                    <p><strong>WhatsApp:</strong> (61) 99999-9999</p>
+                    <p><strong>Atendimento:</strong> Segunda a sexta, das 9h às 18h</p>
+                </div>
+
+           
+
+                <div class="contato-info-bloco">
+                    <h2 class="contato-box-titulo">Importante</h2>
+                    <p>
+                        Este espaço também pode ser utilizado para enviar observações
+                        importantes sobre organização, atendimento, atividades, projetos,
+                        condutas e melhorias para o grupo.
+                    </p>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+</div>
+
+
+<footer class="footer">
+    <p>© kbsweb 2026 | Todo amor e Treino Dedicado a Deus. </p>
+</footer>
+
+<script type="module" src="../js/script.js"></script>
+
+</body>
+</html>
